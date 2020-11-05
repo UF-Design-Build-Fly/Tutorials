@@ -11,7 +11,7 @@ void loop() { //feature to show if brackets are matched
   // put your main code here, to run repeatedly:
   Serial.println(data);
   if (up == true) { //remember this is redundant
-    data = data + 1; //show how I constantly forget semicolon
+    data = data + 1; //common semicolon error
     if (data > 300)
     {
       up = false;

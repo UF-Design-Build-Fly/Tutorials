@@ -36,6 +36,7 @@ void setup() {
   // declare the ledPin as an OUTPUT:
   Serial.begin(9600);
   pinMode(ledPin, OUTPUT);
+  pinMode(sensorPin, INPUT); //declare sensor input as INPUT
 }
 
 void loop() {
